@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 /**
  * main - prints a string without using either printf or puts
  * @void: doesn't  take any argument
