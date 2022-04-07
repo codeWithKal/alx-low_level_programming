@@ -3,7 +3,7 @@
  * main - prints "Programming  is like  building a multilingual puzzle"
  * @void: makes no parameter intake
  *
- * Return : this program doesn't seem to return anything
+ * Return: this program doesn't seem to return anything
 */
 int main(void)
 {
