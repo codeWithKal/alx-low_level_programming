@@ -1,0 +1,13 @@
+#include <stdio.h>
+/**
+ *main - prints lower alphabets from a - z
+ *@void: no parameters
+ *
+ *Return: 0
+ */
+int main(void)
+{
+	for (ch = 'a'; ch <= 'z'; ch++)
+		putchar(ch"\n");
+	return (0);
+}
