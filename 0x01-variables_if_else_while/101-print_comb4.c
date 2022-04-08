@@ -1,30 +1,45 @@
 #include <stdio.h>
+#include <stdlib.h>
 /**
- * main - entry point
- * @void: no parameter
- *
- * Return: 0
- */
+ *  * main - main block
+ *   * Description: Write a program that prints all possible
+ *    * Numbers must be separated by ,, followed by a space
+ *     * prints combination of 3 digits.
+ *      *
+ *       * Return: 0
+ *        */
 int main(void)
 {
-	int x, y, z;
+	int c;
+	int d;
+	int e = 0;
 
-	for (x = 0; x < 8; x++)
+	while (e < 10)
 	{
-		for (y = y + 1; y < 9; y++)
+		d = 0;
+		while (d < 10)
 		{
-			for (z = y + 1; z < 10; z++)
+			c = 0;
+			while (c < 10)
 			{
-				putchar((x % 10) + '0');
-				putchar((y % 10) + '0');
-				putchar((z % 10) + '0');
-				if (x == 7 && y == 8 && z == 9)
-					continue;
-				putchar(',');
-				putchar(' ');
-			}
+				if (c != d && d != e && e < d && d < c)
+				{
+					putchar('0' + e);
+					putchar('0' + d);
+					putchar('0' + c);
+					if (c + d + e != 9 + 8 + 7)
+					{
+						putchar(',');
+						putchar(' ');
+					}
+				}
+				c++;
+			} 
+			d++;
 		}
+		e++;		
 	}
+						
 	putchar('\n');
 	return (0);
 }
