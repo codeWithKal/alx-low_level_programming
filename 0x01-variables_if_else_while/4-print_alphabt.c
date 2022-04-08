@@ -10,7 +10,7 @@ int main(void)
 	char ch;
 
 	for (ch = 'a'; ch <= 'z'; ch++)
-		while (!(ch == 'e' || 'q'))
+		while (!(ch == 'e' || ch == 'q'))
 		putchar(ch);
 	putchar('\n');
 	return (0);
