@@ -1,13 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- *  * main - main block
- *   * Description: Write a program that prints all possible
- *    * Numbers must be separated by ,, followed by a space
- *     * prints combination of 3 digits.
- *      *
- *       * Return: 0
- *        */
+ *main - main block
+ *Description: Write a program that prints all possible
+ *Numbers must be separated by ,, followed by a space
+ *
+ *prints combination of 3 digits.
+ *Return: 0
+ */
 int main(void)
 {
 	int c;
@@ -34,12 +34,10 @@ int main(void)
 					}
 				}
 				c++;
-			} 
+			}
 			d++;
 		}
-		e++;		
-	}
-						
+		e++;				
 	putchar('\n');
 	return (0);
 }
