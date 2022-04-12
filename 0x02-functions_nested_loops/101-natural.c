@@ -1,8 +1,9 @@
 #include <stdio.h>
 /**
  * main - prints the sum of multiples of 3 and 5
+ * Return: 0 which means successful.
  */
-void main(void)
+int main(void)
 {
 	int sum = 0;
 	int i;
@@ -13,4 +14,5 @@ void main(void)
 			sum += i;
 	}
 	printf("%d", sum);
+	return 0;
 }
