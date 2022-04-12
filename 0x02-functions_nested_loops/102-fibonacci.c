@@ -1,9 +1,10 @@
 #include <stdio.h>
 /**
- * fibonacci - prints the first 50 fibonacci numbers
+ * main - prints the first 50 fibonacci numbers
  * @void: no parameters at all
+ * return: 0
  */
-void fibonacci(void) 
+int main(void) 
 {
 	int count;
 	unsigned long fib1 = 0, fib2 = 1, sum;
