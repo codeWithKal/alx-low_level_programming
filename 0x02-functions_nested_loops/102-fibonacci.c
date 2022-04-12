@@ -2,9 +2,9 @@
 /**
  * main - prints the first 50 fibonacci numbers
  * @void: no parameters at all
- * return: 0
+ * Return: 0
  */
-int main(void) 
+int main(void)
 {
 	int count;
 	unsigned long fib1 = 0, fib2 = 1, sum;
