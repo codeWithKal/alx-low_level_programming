@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * _islower - checkes lowercase
- * @parameter: takes integral parameter c
+ * @c: takes integral parameter c
  * Return: 1 if lowercase or 0  if not
  */
 int _islower(int c)
