@@ -6,7 +6,7 @@ void print_alphabet_x10(void)
 {
 	int turn;
 
-	for (turn = 10; turn <= 10; turn++)
+	for (turn = 0; turn <= 10; turn++)
 	{
 		char letter;
 
