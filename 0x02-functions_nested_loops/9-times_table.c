@@ -3,17 +3,28 @@
  * times_table - produces a muliplication table
  * @void: doesn't take any parameter
  */
-void times_tabel(void)
+void times_table(void)
 {
-	int row = 0;
-	int column = 0;
+	int num, mult, prod;
 
-	for (row = 0; row <= 9; row++)
-		for (column = 0; column <= 9; column++)
+	for (num = 0; num <= 9; num++)
+	{
+		_putchar('0');
+
+		for (mult = 1; mult <= 9; mult++)
 		{
-			int result;
+			_putchar(',');
+			_putchar(' ');
 
-			result = row * column;
-			_putchar(result);
+			prod = num * mult;
+
+			if (prod <= 9)
+				_putchar(' ');
+			else
+				_putchar((prod / 10) + '0');
+
+			_putchar((prod % 10) + '0');
 		}
+		_putchar('\n');
+	}
 }
