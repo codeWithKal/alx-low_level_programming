@@ -6,7 +6,7 @@
 void times_tabel(void)
 {
 	int row = 0;
-	int columt = 0;
+	int column = 0;
 
 	for (row = 0; row <= 9; row++)
 		for (column = 0; column <= 9; column++)
