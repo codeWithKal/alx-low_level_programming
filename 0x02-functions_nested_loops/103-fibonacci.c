@@ -16,7 +16,7 @@ int main(void)
 		if (next_fib % 2 == 0)
 			total += next_fib;
 		fib1 = fib2;
-		fib2 = next_fib
+		fib2 = next_fib;
 	}
 	printf("%.0f\n", total);
 	return (0);
