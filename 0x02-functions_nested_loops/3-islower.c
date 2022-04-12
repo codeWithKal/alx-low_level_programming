@@ -1,7 +1,8 @@
 #include "main.h"
-/**_islower - checks for the case of a letter
- * @parameter: takes an integral parameter c
- * Return: 0
+/**
+ * _islower - checkes lowercase
+ * @parameter: takes integral parameter c
+ * Return: 1 if lowercase or 0  if not
  */
 int _islower(int c)
 {
