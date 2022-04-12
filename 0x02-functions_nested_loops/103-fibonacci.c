@@ -8,7 +8,7 @@ int main(void)
 	unsigned long fib1 = 1, fib2 = 2, next_fib;
 	float total;
 
-	while (true)
+	while (1)
 	{
 		next_fib = fib1 + fib2;
 		if (next_fib > 4000000)
