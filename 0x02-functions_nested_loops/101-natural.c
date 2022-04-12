@@ -10,9 +10,9 @@ int main(void)
 
 	for (i = 0; i < 1024; i++)
 	{
-		while ((i % 3 == 0) || (i % 5 == 0))
+		if ((i % 3 == 0) || (i % 5 == 0))
 			sum += i;
 	}
 	printf("%d", sum);
-	return (sum);
+	return (0);
 }
