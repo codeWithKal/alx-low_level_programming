@@ -5,11 +5,11 @@
  */
 void print_to_98(int n)
 {
-	int i = 0;
+	int i;
 
 	for (i = n; i <= 98; i++)
 	{
-		_putchar('i');
+		_putchar(i);
 		while (i != 98)
 		{
 			_putchar(',');
