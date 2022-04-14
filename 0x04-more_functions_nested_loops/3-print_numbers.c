@@ -1,14 +1,27 @@
 #include "main.h"
+
 /**
- * print_numbers - prints for 0 through 9
+ * print_most_numbers - Prints except 2 and 4.
+ *
+ * Return: Always 0 (Success)
  */
-int print_numbers(void)
+
+void print_most_numbers(void)
 {
-	int c;
+int i;
 
-	c = 0;
+i = 0;
 
-	for (c = 0; c <= 9; c++)
-		_putchar(c + '0');
-	_putchar('\n');
+for (i = 0; i < 10; i++)
+{
+
+if (i == 2 || i == 4)
+
+i++;
+
+_putchar(i + '0');
+
+}
+_putchar ('\n');
+
 }
