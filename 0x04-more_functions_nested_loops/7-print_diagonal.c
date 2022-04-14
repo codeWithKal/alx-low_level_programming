@@ -1,26 +1,30 @@
 #include "main.h"
+
 /**
- * print_diagonal - prits diagonal line
- * @n: the size of diagonal
+ * print_diagonal - prints diagonals
+ * @n: limit
+ *
+ * Return: void
  */
+
 void print_diagonal(int n)
 {
-	if (n > 0)
-	{
-	int row, column;
+int i, j;
 
-	for (row = 0; row < n; row++)
-	{
-		for (colum = 0; column < row; column++)
-		{
-			_putchar(' ');
-		}
-		_putchar('\\');
-		_putchar('\n');
-	}
-	}
-	else
-	{
-		_putchar('\n');
-	}
+if (n > 0)
+{
+for (i = 0; i < n; i++)
+{
+for (j = 0; j < i; j++)
+{
+_putchar(' ');
+}
+_putchar('\\');
+_putchar('\n');
+}
+}
+else
+{
+_putchar('\n');
+}
 }
