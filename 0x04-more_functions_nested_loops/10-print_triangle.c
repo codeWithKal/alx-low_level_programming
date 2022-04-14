@@ -1,6 +1,6 @@
 #include "main.c"
 /**
- * print_traingle - prints a triangle
+ * print_triangle - prints a right angled triangle
  * @size: is the size of the triangle
  */
 void print_triangle(int size)
@@ -15,15 +15,14 @@ void print_triangle(int size)
 	{
 		for (row = 1; row <= size; row++)
 		{
-			for (column = size; column >= 1; column--)
+			for (column = 1; column <= size; column++)
 			{
-			for (filler = size; filler > column; filler--)
-			{
-			_puchar('#');
-			}
-			_putchar('#');
+				if ((size - i - 1) > j)
+					_putchar(' ');
+				else
+					_putchar('#');
+				_putchar('\n');
 			}
 		}
 	}
 }
-
