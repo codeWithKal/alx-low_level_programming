@@ -5,6 +5,8 @@
  */
 void print_diagonal(int n)
 {
+	if (n > 0)
+	{
 	int row, column;
 
 	for (row = 0; row < n; row++)
@@ -14,6 +16,11 @@ void print_diagonal(int n)
 			_putchar(' ');
 		}
 		_putchar('\\');
+		_putchar('\n');
+	}
+	}
+	else
+	{
 		_putchar('\n');
 	}
 }
