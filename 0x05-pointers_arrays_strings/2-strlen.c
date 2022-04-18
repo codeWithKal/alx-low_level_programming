@@ -6,5 +6,11 @@
  */
 int _strlen(char *s)
 {
-	return (sizeof(s));
+	int x;
+
+	if (x != '\0')
+		x++;
+		return (x);
+	else
+		return (0);
 }
