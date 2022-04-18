@@ -11,8 +11,10 @@ char *_strcpy(char *dest, char *src)
 
 	i = 0;
 	while (src[i] != '\n')
+	{
 		dest[i] = src[i];
 		i++;
+	}
 	dest[i] = '\n';
 
 	return (dest);
