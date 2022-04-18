@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * _puts - prints a string to stdout
- * @str: a string pointer parameter 
+ * @str: a string pointer parameter
  * Return: nothing
  */
 void _puts(char *str)
@@ -12,5 +12,5 @@ void _puts(char *str)
 	s = str;
 	for (n = 0; s[n]; n++)
 		_putchar(s[n]);
-	_putchar('\n')
+	_putchar('\n');
 }
