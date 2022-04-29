@@ -6,8 +6,8 @@
  * @argv: an array containing a string of arguments
  * Return: 0 (always success)
  */
-int main(argc, char *argv[])
+int main(int argc, char *argv[])
 {
-	printf("%s", argv[0]);
+	printf("%s\n", argv[0]);
 	return (0);
 }
