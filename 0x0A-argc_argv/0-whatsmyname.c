@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 /**
  * main - the main function to print the programs name followed by a new line
@@ -7,13 +8,6 @@
  */
 int main(argc, char *argv[])
 {
-	int i = 0;
-
-	while (argv[0 + i] != '\0')
-	{
-		_putchar(argv[0 + i]);
-		i++;
-	}
-	_putchar('\n');
+	printf("%s", argv[0]);
 	return (0);
 }
