@@ -9,6 +9,8 @@ int main(int argc, char *argv[])
 {
 	int mul;
 
+	argc = argc;
+
 	if (argv[1] != NULL && argv[2] != NULL)
 	{
 		mul = argv[1] * argv[2];
