@@ -3,19 +3,20 @@
 /**
  * print_dog - prints the dog property
  * @d: the dog struct
+ * Return: nothing
  */
 void print_dog(struct dog *d)
 {
-	if (d == NULL)
+	if (d == 0)
 		return;
-	if (d->name == NULL)
+	if (d->name == 0)
 		printf("Name: (nil)\n");
 	else
 	{
 		printf("Name: %s\n", d->name);
 	}
 	printf("Age: %f\n", d->age);
-	if (d->owner == NULL)
+	if (d->owner == 0)
 		printf("Owner: (nil)\n");
 	else
 	{
