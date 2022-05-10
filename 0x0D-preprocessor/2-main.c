@@ -5,7 +5,8 @@
  * main - calles the name_caller function
  * Return: 0 (always success)
  */
-void main(void)
+int main(void)
 {
 	printf("%s\n", PARENT_FILE);
+	return (0);
 }
