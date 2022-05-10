@@ -1,6 +1,6 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-void name_caller();
+void name_caller(void);
 
 #endif
