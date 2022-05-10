@@ -11,3 +11,11 @@ void name_caller(void)
 	printf("%s", PARENT_FILE);
 }
 
+/**
+ * main - calles the name_caller function
+ * Return: 0 (always success)
+ */
+void main(void)
+{
+	name_caller();
+}
