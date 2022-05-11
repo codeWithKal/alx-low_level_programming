@@ -1,5 +1,5 @@
 #include <stdlib.h>
-#include "main.h"
+#include "function_pointers.h"
 /**
  * array_iterator - calles a function on differnt values of an array paramters
  * @array: an array parameter
