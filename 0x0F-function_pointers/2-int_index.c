@@ -4,7 +4,9 @@
  * @array: the array of integers
  * @size: the size of our array
  * @cmp: a function pointer to be used to compare numbers
- * Return: 0 on success and -1 on unsuccess
+ *  * Return: index of the first element for which
+ * the cmp function does not return 0, or -1 if no match is found
+ * or size is negative
  */
 int int_index(int *array, int size, int (*cmp)(int))
 {
