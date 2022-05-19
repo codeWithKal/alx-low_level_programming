@@ -9,9 +9,9 @@
  */
 size_t list_len(const list_t *h)
 {
-	unsigned int node;
+	size_t node;
 
-	for (node = 0; h->next != NULL; node++)
+	for (node = 0; h != NULL; node++)
 	{
 		h = h->next;
 	}
