@@ -1,7 +1,7 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-char _putchar(char);
+int _putchar(char c);
 unsigned int binary_to_uint(const char *b);
-
+int length_finder(const char *b);
 #endif
