@@ -1,4 +1,4 @@
-#include "hush_tables.h"
+#include "hash_tables.h"
 /*
  * key_index - a function that gived an index of a character key
  *
