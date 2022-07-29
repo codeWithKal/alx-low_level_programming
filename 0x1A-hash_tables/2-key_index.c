@@ -1,5 +1,5 @@
 #include "hash_tables.h"
-/*
+/**
  * key_index - a function that gived an index of a character key
  *
  * @key: a pointer to the key string
