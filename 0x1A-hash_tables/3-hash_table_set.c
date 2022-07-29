@@ -38,13 +38,13 @@ char *str_copy(const char *s)
 int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 {
 	unsigned int index;
-	has_node_t *tmp = NULL, *new_node = NULL;
+	hash_node_t *tmp = NULL, *new_node = NULL;
 
 
 	if ((ht != NULL) && (ht->array != NULL) && (key != NULL) && (strlen(key) > 0))
 	{
-		index = key_index((key), ht->size);
-		tmp = ht->array[idx];
+		index = key_index((unsigned char *)key, ht->size);
+		tmp = ht->array[index];
 		while (tmp != NULL)
 		{
 			if (strcmp(tmp->key, key) == 0)
